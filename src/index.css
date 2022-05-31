@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+/* Navbar.js */
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 2em;
+}
+
+li{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: rgb(139, 139, 139);
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+/* Media queries */
+
+@media (max-width: 500px){
+    .navbar{
+        padding: 10px 0px;
+    }
+    
+    ul{
+        gap: 10px;
+    }
+}
