@@ -12,7 +12,7 @@ const Projects = () => {
                         <div key={project.id} className="card-container">
                             <div className="img-container"> 
                                 <picture>
-                                    <source srcset={project.large} media="(min-width: 1200px)" />
+                                    <source srcSet={project.large} media="(min-width: 1200px)" />
                                     <img src={project.small} alt={project.name} className="project-img"/>
                                 </picture>
                             </div>
