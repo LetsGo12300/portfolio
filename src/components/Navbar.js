@@ -2,16 +2,16 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav class="navbar">
+        <nav className="navbar">
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" className="navbar-link">Home</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects" className="navbar-link">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" className="navbar-link">Contact</a>
                 </li>
             </ul>
         </nav>

@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Projects from './components/Projects';
 import React, { useEffect } from "react";
 
 const App = () => {
@@ -14,8 +15,8 @@ const App = () => {
           color: '#fafafa',
           backgroundColor: '#fafafa',
           height: 3,
-          margin: 'auto',
-          width: '85%'
+          width: '85%',
+          margin: '80px auto',
         }}
       />
     )
@@ -25,6 +26,8 @@ const App = () => {
     <>
       <Navbar/>
       <Home/>
+      <Divider/>
+      <Projects/>
       <Divider/>
     </>
   );
