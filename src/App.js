@@ -7,10 +7,25 @@ const App = () => {
     document.title = "Anne Catherine V.";
   });
 
+  const Divider = () => {
+    return (
+      <hr
+        style={{
+          color: '#fafafa',
+          backgroundColor: '#fafafa',
+          height: 3,
+          margin: 'auto',
+          width: '85%'
+        }}
+      />
+    )
+  };
+
   return (
     <>
-    <Navbar/>
-    <Home/>
+      <Navbar/>
+      <Home/>
+      <Divider/>
     </>
   );
 };
