@@ -4,7 +4,7 @@ import colors from '../projects/images/colors.png';
 const Home = () => {
     return (
         <section id="home">
-            <div>
+            <div className="home-img-container">
                 <img className="home-img" src={colors} alt=""/>
             </div>
             <div className="home-text">

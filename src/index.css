@@ -56,8 +56,13 @@ li a:hover{
     transform: translate(-100px);
 }
 
+div.home-img-container{
+    max-height: 500px;
+    text-align: center;
+}
+
 img.home-img{
-    height: 500px;
+    height: 100%;
     width: auto;
 }
 
@@ -82,7 +87,7 @@ div.home-greeting{
 
 div.home-intro{
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* Projects.js */
@@ -90,7 +95,7 @@ div.home-intro{
 .project-container{
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
     grid-template-rows: 1fr;
     grid-auto-rows: 1fr;
     place-items: center;
@@ -206,12 +211,40 @@ picture{
 
 /* Media queries */
 
-@media (max-width: 500px){
+@media (max-width: 1024px){
     .navbar{
-        padding: 10px 0px;
+        padding: 20px 0px;
     }
     
     ul{
         gap: 10px;
+        margin-right: 2em;
+    }
+
+    #home{
+        transform: translate(0);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img.home-img{
+        height: 400px;
+        width: auto;
+    }
+
+    div.home-text{
+        padding: 10px 20px;
+        border-radius: 10px;
+        position: static;
+        transform: translateY(-250px);
+        width: 90%;
+    }
+
+    div.home-greeting{
+        font-size: 30px;
+    }
+    
+    div.home-intro{
+        font-size: 20px;
     }
 }
