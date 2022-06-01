@@ -1,5 +1,5 @@
 import React from 'react';
-import colors from '../images/colors.png';
+import colors from '../projects/images/colors.png';
 
 const Home = () => {
     return (
