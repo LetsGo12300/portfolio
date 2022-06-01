@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import React, { useEffect } from "react";
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
       <Divider/>
       <Projects/>
       <Divider/>
+      <Contact/>
     </>
   );
 };
