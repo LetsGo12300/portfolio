@@ -61,7 +61,7 @@ li a:hover{
 }
 
 div.home-img-container{
-    max-height: 500px;
+    max-height: 450px;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ div.home-intro{
 .project-container{
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     grid-template-rows: 1fr;
     grid-auto-rows: 1fr;
     place-items: center;
@@ -202,6 +202,7 @@ picture{
 .contact-details>p{
     margin: 20px;
     font-size: 1.2rem;
+    text-align: justify;
 }
 
 .contact-title{
@@ -285,9 +286,9 @@ picture{
     }
 
     div.home-text{
-        padding: 10px 30px;
-        transform: translateY(-170px);
-        width: 80%;
+        padding: 10px 20px;
+        transform: translateY(-180px);
+        width: 75%;
     }
 
     div.home-greeting{
