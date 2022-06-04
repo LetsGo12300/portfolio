@@ -120,6 +120,11 @@ div.home-intro{
 .card-container{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 100%;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.card-container:hover{
+    transform: scale(1.03);
 }
 
 .card-details{
@@ -130,7 +135,13 @@ div.home-intro{
     padding: 1rem 2.5rem;
     min-height: 130px;
     max-height: 450px;
+    transition: background-color 0.2s linear; 
 }
+
+.card-container:hover > .card-details{
+    background-color: #e4e4e4;
+}
+   
 
 .card-description{
     color: #334155;
