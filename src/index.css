@@ -218,10 +218,12 @@ picture{
 
 .contact-icon{
     color: #fafafa;
+    transition: transform 0.2s linear;
 }
 
 .contact-icon:hover{
     color: #F08080;
+    transform: scale(1.1);
 }
 
 /* Media queries */
