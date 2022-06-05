@@ -17,7 +17,7 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/ac-vergeldedios/" target="_blank" rel="noopener noreferrer" className="contact-icon">
                         <Icon path={ mdiLinkedin } size={2}></Icon>
                     </a>
-                    <a href="mailto:name@annecatherinevergeldedios@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-icon">
+                    <a href="mailto:annecatherinevergeldedios@gmail.com" className="contact-icon">
                         <Icon path={ mdiEmail } size={2}></Icon>
                     </a>
                 </div>
