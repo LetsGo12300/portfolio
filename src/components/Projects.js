@@ -5,7 +5,7 @@ import Icons from './Icons';
 const Projects = () => {
     return (
         <section id="projects">
-            <div className="my-projects-title">My Projects</div>
+            <div className="my-projects-title">My Featured Projects</div>
             <div className="project-container">
                 {projects.map((project) => {
                     return (
