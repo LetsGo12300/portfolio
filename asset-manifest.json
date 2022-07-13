@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3013cbf8.css",
-    "main.js": "/portfolio/static/js/main.3c6cebe2.js",
-    "static/media/Restaurant-large.PNG": "/portfolio/static/media/Restaurant-large.d55ebc3b635dea5a0cc1.PNG",
-    "static/media/Restaurant-small.PNG": "/portfolio/static/media/Restaurant-small.0995b95c929a800bcc36.PNG",
+    "main.js": "/portfolio/static/js/main.21b69e59.js",
     "static/media/Memory-large.PNG": "/portfolio/static/media/Memory-large.1e2be4f74d7eb4ebe254.PNG",
     "static/media/Shopping-large.PNG": "/portfolio/static/media/Shopping-large.6af1b49ee0feb9ec46f0.PNG",
+    "static/media/Friendlychat-large.png": "/portfolio/static/media/Friendlychat-large.f454a8a4e3bd73099644.png",
+    "static/media/Friendlychat-small.png": "/portfolio/static/media/Friendlychat-small.d6f86a6d0d8cbbc01b03.png",
+    "static/media/UMS-large.PNG": "/portfolio/static/media/UMS-large.8a362c5d14f916168459.PNG",
+    "static/media/Clubhouse-large.PNG": "/portfolio/static/media/Clubhouse-large.bbc8536567297292aaa6.PNG",
+    "static/media/Clubhouse-small.PNG": "/portfolio/static/media/Clubhouse-small.f370cabcf5cdd2c1638e.PNG",
     "static/media/Memory-small.PNG": "/portfolio/static/media/Memory-small.2bb0f9b0ffc5e6d4c8a0.PNG",
-    "static/media/Library-large.PNG": "/portfolio/static/media/Library-large.ae60109ab4f44e5e85fe.PNG",
+    "static/media/UMS-small.PNG": "/portfolio/static/media/UMS-small.301a29a43da96ba588c6.PNG",
     "static/media/Todo-large.PNG": "/portfolio/static/media/Todo-large.9b5e88b833187bfee7a8.PNG",
     "static/media/Todo-small.PNG": "/portfolio/static/media/Todo-small.6e658ce1de362bec14ac.PNG",
-    "static/media/Library-small.PNG": "/portfolio/static/media/Library-small.4e0f8bc882f7d5f72470.PNG",
-    "static/media/TicTacToe-large.PNG": "/portfolio/static/media/TicTacToe-large.8721b418bbfc3f56a2ad.PNG",
-    "static/media/TicTacToe-small.PNG": "/portfolio/static/media/TicTacToe-small.4ae703efa20d4d71afc9.PNG",
     "static/media/colors.png": "/portfolio/static/media/colors.1637305ff2b93e01ca6a.png",
     "static/media/Shopping-small.PNG": "/portfolio/static/media/Shopping-small.10305455a431917a028d.PNG",
     "index.html": "/portfolio/index.html",
     "main.3013cbf8.css.map": "/portfolio/static/css/main.3013cbf8.css.map",
-    "main.3c6cebe2.js.map": "/portfolio/static/js/main.3c6cebe2.js.map"
+    "main.21b69e59.js.map": "/portfolio/static/js/main.21b69e59.js.map"
   },
   "entrypoints": [
     "static/css/main.3013cbf8.css",
-    "static/js/main.3c6cebe2.js"
+    "static/js/main.21b69e59.js"
   ]
 }
